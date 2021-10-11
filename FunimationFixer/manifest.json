@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "FunimationFixer",
+    "version": "0.1",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "*://*.funimation.com/*",
+        "*://*.funimationsvc.com/*"
+    ],
+    "background": {
+      "page": "background.html"
+    },
+    "content_scripts":[
+        /**
+      {
+        "matches":[],
+        "js":[],
+        "run_at":"document_end"
+      }
+      */
+    ]
+    }
